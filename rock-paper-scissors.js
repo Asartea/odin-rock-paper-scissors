@@ -6,7 +6,6 @@ function getComputerChoice() {
     let choice = options[~~(Math.random() * options.length)]
     return choice
 }
-//get player choice
 function getPlayerChoice() {
     let choice = prompt('What do you choose?', 'Rock')
     return choice
