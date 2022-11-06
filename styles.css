@@ -1,0 +1,56 @@
+:root {
+    --main-background-color: #1F2937;
+    --accent-color: #3882f6;
+    --main-text-color: #f9faf8;
+    --secondary-color: #E5E7EB;
+}
+
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+/* General stuff */
+.container {
+    padding: 20px 100px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: var(--accent-color);
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Buttons */
+.buttons {
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px 240px;
+}
+
+/* Results */
+.results {
+    padding:20px 240px;
+}
+.result {
+    border:1px var(--accent-color);
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    width: fit-content;
+    height: fit-content;
+    margin:auto;
+    padding:20px;
+    font-size:20px;
+}
