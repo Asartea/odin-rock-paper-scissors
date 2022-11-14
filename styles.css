@@ -46,6 +46,7 @@ body {
 }
 .result {
     border:1px var(--accent-color);
+    border-radius:15px;
     background-color: var(--main-background-color);
     color: var(--main-text-color);
     width: fit-content;
